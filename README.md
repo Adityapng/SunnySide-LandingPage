@@ -1,3 +1,3 @@
 # SunnySide-LandingPage
-Demo landing page 
+Demo landing page.
 This webdite is not responsive yet

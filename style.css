@@ -1,0 +1,409 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Fraunces:wght@700;900&display=swap");
+
+body {
+  margin: 0;
+}
+.header {
+  background-image: url(images/desktop/image-header.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.header > nav {
+  padding: 40px 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+}
+
+.header > nav > .nav {
+  height: 40px;
+  display: flex;
+}
+
+.header > nav > .nav > li {
+  margin: 0;
+  height: 40px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 0 25px 0;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  align-content: center;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+}
+
+.header > nav > .nav > li > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header > nav > .nav > button {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  background-color: #fff;
+  border: none;
+  color: black;
+  border-radius: 20px;
+  margin: 0 25px;
+  font-size: 16px;
+  padding: 0 15px;
+  transition: 0.5s;
+}
+
+.header > nav > .nav > button:hover {
+  background-color: rgb(8 145 178);
+  color: #fff;
+  cursor: pointer;
+}
+
+.header > h1 {
+  text-align: center;
+  color: #fff;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 2.75rem;
+  letter-spacing: 0.25em;
+  margin-top: 40px;
+}
+
+#darrow {
+  position: relative;
+  top: 130px;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+.second {
+  background-image: url(images/desktop/image-transform.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+}
+
+.second > .info1,
+.second > .info1bg {
+  height: 50vw;
+  width: 50vw;
+}
+.second > .info1 {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.second > .info1 > .text {
+  width: 60%;
+}
+
+.second > .info1 > .text > p {
+  margin-bottom: 48px;
+  padding: 0;
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  color: hsl(232, 10%, 55%);
+}
+
+.second > .info1 > .text > h1 {
+  margin: 0 0 48px;
+  padding: 0;
+  font-weight: 700;
+  font-family: "Fraunces", serif;
+  font-size: 2.75rem;
+}
+
+.second > .info1 > .text > .link {
+  color: #000;
+  text-decoration: underline 4px hsl(51, 100%, 49%);
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+}
+
+.second > .info1 > .text > .link:hover {
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.third {
+  background-image: url(images/desktop/image-stand-out.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+}
+
+.third > .info2,
+.third > .info2bg {
+  height: 50vw;
+  width: 50vw;
+}
+
+.third > .info2 {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.third > .info2 > .text {
+  width: 60%;
+}
+
+.third > .info2 > .text > h1 {
+  margin: 0 0 48px;
+  padding: 0;
+  font-weight: 700;
+  font-family: "Fraunces", serif;
+  font-size: 2.75rem;
+}
+
+.third > .info2 > .text > p {
+  margin-bottom: 48px;
+  padding: 0;
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  color: hsl(232, 10%, 55%);
+}
+
+.third > .info2 > .text > .link {
+  color: #000;
+  text-decoration: underline 4px hsl(7, 99%, 70%);
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+}
+
+.third > .info2 > .text > .link:hover {
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.fourth {
+  display: flex;
+}
+.fourth > .left {
+  background-image: url(images/desktop/image-graphic-design.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50vw;
+  width: 50vw;
+}
+.fourth > .right {
+  background-image: url(images/desktop/image-photography.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50vw;
+  width: 50vw;
+}
+.fourth > .left > .text,
+.fourth > .right > .text {
+  text-align: center;
+  width: 60%;
+  position: relative;
+  margin: auto;
+  top: 350px;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+}
+
+.fourth > .left > .text > h2,
+.fourth > .right > .text > h2 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.fourth > .left > .text > p,
+.fourth > .right > .text > p {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+}
+
+.fourth > .left > .text {
+  color: hsl(167, 40%, 24%);
+}
+.fourth > .right > .text {
+  color: hsl(198, 62%, 26%);
+}
+
+.fifth {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.fifth > .content {
+  text-align: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.fifth > .content > p {
+  color: hsl(210, 4%, 67%);
+  font-family: "Fraunces", serif;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin: 75px 0;
+}
+
+.fifth > .content > .testibox > .testimonials {
+  width: 90vw;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+}
+
+.fifth > .content > .testibox > .testimonials > .test1,
+.fifth > .content > .testibox > .testimonials > .test2,
+.fifth > .content > .testibox > .testimonials > .test3 {
+  height: 25vw;
+  width: 25vw;
+}
+
+.fifth > .content > .testibox > .testimonials > .test1 > img,
+.fifth > .content > .testibox > .testimonials > .test2 > img,
+.fifth > .content > .testibox > .testimonials > .test3 > img {
+  height: 22%;
+  width: 22%;
+  border-radius: 100%;
+}
+
+.review {
+  font-family: "Barlow", sans-serif;
+  margin: 50px 0;
+  font-size: 1.125rem;
+  line-height: 1.6rem;
+  color: hsl(212, 27%, 19%);
+  font-weight: 400;
+}
+.pos {
+  font-family: "Barlow", sans-serif;
+  margin: 5px;
+  color: hsl(210, 4%, 67%);
+}
+.name {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.sixth {
+  display: flex;
+}
+
+.sixth > .disimg1 {
+  background-image: url(images/desktop/image-gallery-milkbottles.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 25vw;
+  width: 25vw;
+}
+.sixth > .disimg2 {
+  background-image: url(images/desktop/image-gallery-orange.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 25vw;
+  width: 25vw;
+}
+.sixth > .disimg3 {
+  background-image: url(images/desktop/image-gallery-cone.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 25vw;
+  width: 25vw;
+}
+.sixth > .disimg4 {
+  background-image: url(images/desktop/image-gallery-sugarcubes.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 25vw;
+  width: 25vw;
+}
+
+.footer {
+  background-color: hsl(170 50% 68% / 1);
+  color: hsl(167, 40%, 24%);
+}
+.footer > .options {
+  text-align: center;
+  margin: 40px 0 75px;
+}
+.footer > .options > p:nth-child(2),
+.footer > .options > p:last-child {
+  padding-left: 25px;
+}
+.footer > .options > p {
+  display: inline;
+  font-family: "Barlow", sans-serif;
+  transition: 0.5s;
+}
+
+.footer > .options > p:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.footer > .logo {
+  display: flex;
+  justify-content: center;
+}
+.footer > .logo > svg {
+  fill: #2c7566;
+  margin-top: 50px;
+}
+
+.footer > .contact {
+  display: flex;
+  justify-content: center;
+}
+
+.footer > .contact > .svg {
+  width: 140px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer > .contact > .svg > svg {
+  fill: #2c7566;
+  transition: 0.5s;
+}
+
+.footer > .contact > .svg > svg:hover {
+  fill: #fff;
+  transition-timing-function: linear;
+  cursor: pointer;
+}
+
+.footer > .attribution > p {
+  margin: 0;
+  padding-top: 40px;
+  font-size: 11px;
+  text-align: center;
+}
+.footer > .attribution > p:last-child {
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 25px;
+}
+.footer > .attribution > p > a {
+  text-decoration: none;
+  color: #2c7566;
+}
